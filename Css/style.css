@@ -30,13 +30,15 @@ body{
     margin-left: 250px;
     margin-right: 250px;
     margin-bottom: 100px;
-
-
+    
+    
 }
 button{
     background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
     width: 180px;
     height: 50px;
+    box-shadow: 0px 0px 10px var(--secondary-color), 0px 0px 10px var(--secondary-color);
 }
 *{
     font-family: 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif;
@@ -61,14 +63,16 @@ ul{
     font-size: 30px;
 }
 body > div{
-    border: 1px solid black;
-    width: 825px;
+    border: 1px solid whitesmoke;
+    width: 835px;
     height: 500px;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0px;
     justify-content: center;
+    box-shadow: 0px 0px 10px var(--secondary-color), 0px 0px 10px var(--secondary-color);
+   
 }
 
 
