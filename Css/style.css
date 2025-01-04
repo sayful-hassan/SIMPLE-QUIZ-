@@ -1,0 +1,78 @@
+@property --primary-color{
+    syntax: "<color>";
+    inherits : true;
+    initial-value: #c68dff;
+    
+    
+}
+@property --secondary-color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #cbe857;
+    
+}
+@property --tertiory-color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value:#323843 ;
+}
+@property --complementary-color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: white ;
+}
+body{
+    background-color: var(--primary-color);
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+
+
+}
+button{
+    background-color: var(--secondary-color);
+    width: 180px;
+    height: 50px;
+}
+*{
+    font-family: 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif;
+
+}
+h6{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 1px;
+}
+h3{
+    font-size: 45px;
+    margin-top: -48px;
+    margin-bottom: 15px;
+    text-align: start;
+    padding-top: 3px;
+    padding-left: 3px;
+    
+}
+ul{
+    justify-items: left;
+    font-size: 30px;
+}
+body > div{
+    border: 1px solid black;
+    width: 825px;
+    height: 500px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0px;
+    justify-content: center;
+}
+
+
+p{
+    font-size: 25px;
+    overflow-y: visible;
+}
